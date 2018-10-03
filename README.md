@@ -1,2 +1,10 @@
 # chatBot
 a chat bot interface
+
+### SKILLS SUPPORTED
+* `calls`
+
+### CALLS EXAMPLE QUERIES
+* `call shiv@`
+* `call 1234567890`
+* `call shan_123`
