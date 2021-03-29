@@ -1,0 +1,94 @@
+h1 {
+  color: green;
+  margin: 0px;
+}
+
+body {
+  margin: auto;
+}
+
+.headerCss {
+    background-color: bisque;
+    /* background-color: aquamarine; */
+    height: 12vh;
+    text-align: center;
+    position: relative;
+    /* margin: 0px; */
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 15% auto;
+    padding: inherit;
+    height: 88vh;
+}
+
+/* side bar css elements */
+.sideBar {
+    background-color: antiquewhite;
+    padding: inherit;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sideBarDivCss {
+    padding-bottom: 10px;
+    padding-top: 10px; 
+    font-size: 23px;
+    height: inherit;
+}
+
+/* input search box css data*/
+#inputSearch {
+      bottom: 1px;
+      position: fixed;
+      width: -webkit-fill-available;
+}
+
+#textInputSearch {
+    height: 50px;
+    width: inherit;
+}
+
+/* messages css data */
+ #messageDiv {
+    height: 79vh;
+    position: relative;
+    top: -webkit-fill-available;
+    overflow-y: auto;
+}
+
+ .messageId {
+      border: 2px;
+      height: 50%;
+      /* border-style: hidden; */
+      padding: 2px;
+}
+
+.rightSideMessage {
+    background-color: lavender;
+    height: 40px;
+    float: right;
+    clear: both;
+}
+
+.leftSideMessage {
+    background-color: lavender;
+    clear: both;
+    height: 40px;
+    float: left;
+    clear: both;
+}
+
+.timeId {
+    float: inherit;
+    height: 50%;
+}
+
+#gameDivCss {
+    width: 80%;
+    border: 1px solid blue;
+    padding-left: 25px;
+    box-sizing: border-box;
+    margin: 25px;
+}
